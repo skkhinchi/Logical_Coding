@@ -1,0 +1,25 @@
+
+import java.util.Scanner;
+
+public class Binaryy
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter any No.");
+		int n=sc.nextInt();
+	    String s = "";
+	    
+	    while (n > 0)
+	    {
+	        s =  ( (n % 2 ) == 0 ? "0" : "1") +s;
+	        n = n / 2;
+	    }
+	   System.out.println(s);
+			}
+		
+		
+	
+	}
+
+
