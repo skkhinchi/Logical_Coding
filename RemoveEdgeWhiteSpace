@@ -1,0 +1,10 @@
+
+public class WhiteSpace {
+
+	public static void main(String[] args) {
+
+		String str =" Sumit Khinchi ";
+		System.out.println(str.trim());
+	}
+
+}
