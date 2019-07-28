@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class MultiLong 
+{
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter any two No.");
+		long a=sc.nextLong();
+		long b=sc.nextLong();
+		System.out.println("Multiplication of a & b= "+a*b);
+	}
+
+}
