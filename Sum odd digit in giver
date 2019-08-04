@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Demo3
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a number: ");
+		int num = sc.nextInt();
+		int temp, sum = 0;
+		while( num != 0)
+		{
+			temp = num % 10;
+			if(temp % 2 != 0)
+			{
+				sum += temp;
+			}
+			num = num / 10;
+		}
+		System.out.print("sum of odd number which occur in given digit: " + sum);
+	}
+}
